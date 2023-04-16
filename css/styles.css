@@ -1,0 +1,46 @@
+/* Fonts */
+/* Colors */
+/* Others */
+
+/* Base styles */
+
+/* header */
+.header {
+}
+.header-nav {
+}
+
+/* body */
+.body {
+  font-family: roboto;
+}
+/* hero */
+.hero {
+  background-color: #2e2f42;
+  color: white;
+  
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+
+}
+.order-service-button{
+  
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* footer */
