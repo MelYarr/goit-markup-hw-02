@@ -9,7 +9,7 @@
   --color-cloud: #f4f4fd;
   --color-navy-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
-  --background-color: #FFFFFF;
+  --background-color: #ffffff;
   --color-dairy: #fcfcfc;
 }
 .style-header-1 {
@@ -148,8 +148,10 @@
   background-color: var(--background-color);
 }
 
-.link {
+.link:hover,
+:focus {
   text-decoration: none;
+  color: #404bbf;
 }
 
 .address {
