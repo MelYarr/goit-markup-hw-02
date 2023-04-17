@@ -164,6 +164,10 @@
 .address {
   font-style: normal;
 }
+.team-card{
+  background-color: #FFFFFF;
+  
+}
 
 .list {
   list-style: none;
