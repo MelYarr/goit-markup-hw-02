@@ -149,7 +149,7 @@
 }
 
 .link:hover,
-:focus {
+.link:focus {
   text-decoration: none;
   color: #404bbf;
 }
