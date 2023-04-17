@@ -24,15 +24,17 @@
   text-transform: none;
   max-width: 500px;
 }
-.style-header-2 {
+.style-header-medium {
   font-size: 36px;
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .style-header-3 {
   font-size: 20px;
