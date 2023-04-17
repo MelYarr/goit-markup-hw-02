@@ -26,6 +26,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  max-width: 500px;
 }
 .style-header-2 {
   font-size: 36px;
