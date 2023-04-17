@@ -47,6 +47,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  color: #2E2F42;
 }
 .p-text-style {
   font-size: 16px;
@@ -131,7 +132,20 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
-
+.footer-logo {
+width: 71px;
+height: 21px;
+font-family: "Raleway";
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
 /* body */
 .body {
   font-family: roboto;
