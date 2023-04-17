@@ -150,10 +150,11 @@
 
 .link:hover,
 .link:focus {
-  text-decoration: none;
   color: #404bbf;
 }
-
+.link {
+  text-decoration: none;
+}
 .address {
   font-style: normal;
 }
