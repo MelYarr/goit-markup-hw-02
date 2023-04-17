@@ -150,7 +150,7 @@ color: #F4F4FD;
 .body {
   font-family: "Roboto",sans-serif;
   color: #434455; 
-  var (--background-color)
+  var(--background-color)
 }
 
 .link {
