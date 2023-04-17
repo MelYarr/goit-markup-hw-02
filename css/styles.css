@@ -148,7 +148,10 @@ color: #F4F4FD;
 }
 /* body */
 .body {
-  font-family: roboto;
+  font-family: roboto; sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+  
 }
 .link {
   text-decoration: none;
