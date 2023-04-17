@@ -199,6 +199,7 @@
 }
 .port-btn:hover,
 .port-btn:focus {
+  color: #FFFFFF;
   background-color: #404BBF;
 }
 
