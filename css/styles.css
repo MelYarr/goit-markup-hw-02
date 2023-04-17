@@ -70,19 +70,21 @@
 
   color: #2e2f42;
 }
-.hero-btn:hover
-.hero-btn:focus {
-  cursor: pointer;
-  background-color: #404bbf;
-  font-size: 16px;
+.hero-btn {
+  color: #FFFFFF;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: none;
+  cursor: pointer;  
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF
+}
+
 .small-text {
   font-size: 12px;
   font-family: "Roboto";
@@ -164,9 +166,8 @@
 .address {
   font-style: normal;
 }
-.team-card{
-  background-color: #FFFFFF;
-
+.team-card {
+  background-color: #ffffff;
 }
 
 .list {
@@ -184,15 +185,6 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-}
-.hero-button {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: #4d5ae5;
 }
 
 .hidden {
