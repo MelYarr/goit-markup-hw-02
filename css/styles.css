@@ -12,13 +12,14 @@
   --background-color: #ffffff;
   --color-dairy: #fcfcfc;
 }
-.style-header-1 {
+.style-header-main {
   font-size: 56px;
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   text-decoration: none;
   text-transform: none;
   max-width: 500px;
