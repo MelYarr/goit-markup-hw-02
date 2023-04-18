@@ -36,6 +36,18 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+.style-header-port {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .style-header-small {
   font-size: 20px;
   font-family: "Roboto";
