@@ -43,7 +43,6 @@
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
   color: #2e2f42;
@@ -161,7 +160,7 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
-/* body */
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
