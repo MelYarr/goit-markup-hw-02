@@ -137,6 +137,7 @@
 }
 .team-card {
   background-color: var(--background-color);
+  width: 264px;
 }
 
 .list {
