@@ -34,7 +34,7 @@
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .style-header-port {
   font-size: 20px;
@@ -45,7 +45,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .style-header-small {
   font-size: 20px;
@@ -56,7 +56,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .p-text-style {
   font-size: 16px;
@@ -67,7 +67,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  color: #434455;
+  color: var(--color-list);
 }
 .text-style-nav {
   font-size: 16px;
@@ -78,22 +78,21 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .hero-btn {
-  color: #FFFFFF;
-  background-color: #4d5ae5;
+  color: var(--background-color);
+  background-color: var(--color-iris);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;  
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF
+  background-color: var(--color-ocean);
 }
 
 .small-text {
@@ -130,7 +129,7 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-iris);
 }
 .logo-style {
   width: 71px;
@@ -144,7 +143,7 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
 .footer-logo {
   width: 71px;
@@ -158,18 +157,18 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 
 .body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-list);
   background-color: var(--background-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 .link {
   text-decoration: none;
@@ -178,7 +177,7 @@
   font-style: normal;
 }
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .list {
@@ -186,21 +185,21 @@
 }
 
 .our-team-section {
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
 }
 
 /* hero */
 .hero {
-  background-color: #2e2f42;
-  color: white;
+  background-color: var(--color-navy-blue);
+  color: var(--background-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
 }
 
 .port-btn {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -210,8 +209,8 @@
 }
 .port-btn:hover,
 .port-btn:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: var(--background-color);
+  background-color: var(--color-ocean);
 }
 
 .hidden {
@@ -236,8 +235,8 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-navy-blue);
 }
