@@ -12,12 +12,20 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
     <!-- header -->
-    <header class="header">
+    <header class="header header-container">
       <nav class="header-nav">
         <a class="logo list link" href="./index.html"
           >Web<span class="logo-style">Studio</span>
@@ -35,14 +43,16 @@
         </ul>
       </nav>
       <address class="address">
-        <ul class="list">
+        <ul class="list header-contact">
           <li>
             <a class="link p-text-style" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link p-text-style" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="link p-text-style" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -51,13 +61,11 @@
       <!-- hero image -->
       <section class="hero">
         <h1 class="style-header-main">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">
-          Order Service
-        </button>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
       <!-- Our principles -->
       <section>
-        <h2 hidden class="style-header-medium ">SPDT</h2>
+        <h2 hidden class="style-header-medium">SPDT</h2>
         <ul class="principles-section list">
           <li>
             <h3 class="style-header-small">Strategy</h3>
@@ -167,7 +175,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer"> 
+    <footer class="footer">
       <a class="logo list link" href="./index.html"
         >Web<span class="footer-logo">Studio</span>
       </a>
